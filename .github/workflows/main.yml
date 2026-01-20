@@ -55,7 +55,6 @@ jobs:
           python -m flake8 backend/
           cd backend/
           python manage.py test
-          cd ..
           pytest ../tests/
 
   frontend_tests:
